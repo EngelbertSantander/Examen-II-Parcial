@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Examen_II_Parcial
 {
-    public partial class Login : Form
+    public partial class FormLogin : Form
     {
-        public Login()
+        public FormLogin()
         {
             InitializeComponent();
         }
@@ -40,7 +40,7 @@ namespace Examen_II_Parcial
            bool valido = await UserDatos.LoginAsync(UsuarioTextBox.Text, ContrasenaTextBox.Text);
             if (valido)
             {
-                Menu Formulario = new Menu();
+                MenúForm Formulario = new MenúForm();
                 Hide();
                 Formulario.Show();
             }

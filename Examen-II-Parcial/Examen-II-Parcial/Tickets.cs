@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Examen_II_Parcial
 {
-    public partial class MenúForm : Form
+    public partial class Tickets : Form
     {
-        public MenúForm()
+        public Tickets()
         {
             InitializeComponent();
-        }
-
-        private void ticketsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

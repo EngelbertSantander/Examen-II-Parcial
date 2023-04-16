@@ -2,7 +2,7 @@
 
 namespace Examen_II_Parcial
 {
-    partial class Login
+    partial class FormLogin
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -98,7 +98,7 @@ namespace Examen_II_Parcial
             // 
             this.errorProvider1.ContainerControl = this;
             // 
-            // Login
+            // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -109,7 +109,7 @@ namespace Examen_II_Parcial
             this.Controls.Add(this.UsuarioTextBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Login";
+            this.Name = "FormLogin";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
